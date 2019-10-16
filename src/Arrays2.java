@@ -1,4 +1,4 @@
-public class Arrais2 {
+public class Arrays2 {
     public static void main(String[] args) {
         //byte, short, int, long, float double = 0;
         //char = \u0000 representação de espaço em branco
@@ -14,5 +14,11 @@ public class Arrais2 {
                 //length mostra o tamanho do array
                 System.out.println(nome[i]);
             }
+            nome = new String[4];
+            //um novo array foi criado, com um novo tamanho, com isso as referências antigas também se perderam.
+        for (int i = 0; i<nome.length;i++){
+           System.out.println(nome[i]);
+        }
+
     }
 }
