@@ -1,3 +1,5 @@
+package br.com.cursojava.introducao.controlefluxo;
+
 public class ControleDeFluxo3 {
     public static void main(String[] args) {
         // tipos aceitos por um switch

@@ -1,3 +1,5 @@
+package br.com.cursojava.introducao.operadores;
+
 public class OperadoresResto {
     public static void main(String[] args) {
         int numeroInteiro = 20;

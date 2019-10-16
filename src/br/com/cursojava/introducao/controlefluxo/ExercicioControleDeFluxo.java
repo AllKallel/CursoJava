@@ -1,3 +1,5 @@
+package br.com.cursojava.introducao.controlefluxo;
+
 public class ExercicioControleDeFluxo {
     public static void main(String[] args) {
         /*Crie uma variável salario e imprima se valor

@@ -1,3 +1,5 @@
+package br.com.cursojava.introducao.controlefluxo;
+
 public class ControleDeFluxo2 {
     public static void main(String[] args) {
         //operadores ternarios.

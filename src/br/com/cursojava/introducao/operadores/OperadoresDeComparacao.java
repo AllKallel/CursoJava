@@ -1,3 +1,5 @@
+package br.com.cursojava.introducao.operadores;
+
 public class OperadoresDeComparacao {
     public static void main(String[] args) {
         /*operadores de comparação:

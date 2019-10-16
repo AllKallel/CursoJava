@@ -1,3 +1,5 @@
+package br.com.cursojava.introducao.controlefluxo;
+
 public class ControleDeFluxo1 {
     public static void main(String[] args) {
         //idade < 15 categoria infantil

@@ -1,3 +1,5 @@
+package br.com.cursojava.introducao.controlefluxo;
+
 public class ExercicioControleDeFluxo2 {
     public static void main(String[] args) {
         // Crie um Switch que dado um valor de 1 a 7

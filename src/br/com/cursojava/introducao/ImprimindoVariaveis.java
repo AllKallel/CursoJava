@@ -1,3 +1,5 @@
+package br.com.cursojava.introducao;
+
 public class ImprimindoVariaveis {
     //Comentário de uma linha
 
