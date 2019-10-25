@@ -6,5 +6,12 @@ public class Professor {
     public String rg;
     public String cpf;
 
+    public void imprimeDados(){
+        System.out.println(this.nome);
+        System.out.println(this.matricula);
+        System.out.println(this.rg);
+        System.out.println(this.cpf);
+    }
+
 
 }
