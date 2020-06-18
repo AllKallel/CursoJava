@@ -26,19 +26,42 @@ public class Calculadora {
         return 0;
     }
 
-    public void imprimindoDoisNumerosDivididos(double num1, double num2){
-        if (num2 != 0){
-            System.out.println( num1 / num2);
+
+    public void imprimindoDoisNumerosDivididos(double num1, double num2) {
+        if (num2 != 0) {
+            System.out.println(num1 / num2);
             return; // return sendo utilizado como break;
         }
         System.out.println("Não é possível efetuar divisões por ZERO");
     }
 
-    public void alteraDoisNumeros(int num1, int num2){
+    public void alteraDoisNumeros(int num1, int num2) {
         num1 = 30;
         num2 = 40;
         System.out.println("Dentro no alteraDoisNumeros");
-        System.out.println("num1 "+num1);
-        System.out.println("num2 "+num2);
+        System.out.println("num1 " + num1);
+        System.out.println("num2 " + num2);
+    }
+
+    public void somaArray (int[] numeros){
+        //aqui a forma de processamento está restrita a arrays pois o argumento do metodo neccessáriamente tem que ser
+        //um array.
+        int soma = 0;
+
+        for (int num : numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    };
+
+    public void somaVarArgs(int... numeros){
+        //nesse caso o metodo já não fica preso a estríng como parâmetro e pode receber os numeros diretamente separa
+        //dos por vírgula.
+        int soma = 0;
+
+        for (int num : numeros){
+            soma += num;
+        }
+        System.out.println(soma);
     }
 }

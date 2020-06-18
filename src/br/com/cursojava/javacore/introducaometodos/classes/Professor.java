@@ -7,6 +7,7 @@ public class Professor {
     public String cpf;
 
     public void imprimeDados(){
+        
         System.out.println(this.nome);
         System.out.println(this.matricula);
         System.out.println(this.rg);
