@@ -25,7 +25,8 @@ public class Calculadora {
         }
         return 0;
     }
-
+        //return leva sempre de volta para a classe que o chamou e na maioria dos casos precisa sempre voltar com
+        //algum resoltado. A não ser que o metodo seja void.
 
     public void imprimindoDoisNumerosDivididos(double num1, double num2) {
         if (num2 != 0) {
