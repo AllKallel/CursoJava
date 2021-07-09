@@ -13,6 +13,4 @@ public class Professor {
         System.out.println(this.rg);
         System.out.println(this.cpf);
     }
-
-
 }

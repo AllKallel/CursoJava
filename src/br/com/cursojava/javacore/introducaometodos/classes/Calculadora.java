@@ -48,7 +48,6 @@ public class Calculadora {
         //aqui a forma de processamento está restrita a arrays pois o argumento do metodo neccessáriamente tem que ser
         //um array.
         int soma = 0;
-
         for (int num : numeros){
             soma += num;
         }
@@ -56,8 +55,11 @@ public class Calculadora {
     };
 
     public void somaVarArgs(int... numeros){
-        //nesse caso o metodo já não fica preso a estríng como parâmetro e pode receber os numeros diretamente separa
-        //dos por vírgula.
+        //nesse caso o metodo já não fica preso ao array como parâmetro e pode receber os numeros diretamente separa
+        //dos por vírgula ou um array. Java se encarrega, no caso dos números de transformar em um array dentro do
+        //método para que possa trabalhar com ele.
+        //Porém só é permirido um var args por assinatura de metodos.
+        //caso haja mais parametros, o var args precisa ser o último.
         int soma = 0;
 
         for (int num : numeros){

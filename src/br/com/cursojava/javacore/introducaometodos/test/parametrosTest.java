@@ -14,3 +14,5 @@ public class parametrosTest {
         System.out.println("num2 "+num2);
     }
 }
+//Os parametros são apenas cópias dos valores contidos nas variáveis. Os valores originais não são alterados pelos
+//methodos.
