@@ -6,6 +6,7 @@ public class Estudante {
     private String nome = "defult";
     private int idade = 0;
     private double[] notas ={0,0,0};
+    private boolean aprovado;
 
     //imprime os dados do aluno---------------------------------------------------------------------------------------
     public void imprimirDados(){
@@ -28,38 +29,32 @@ public class Estudante {
             System.out.println();//só pra descer uma linha
             System.out.println("Média = "+soma/3);
             if(soma/3 > 6){
+                this.aprovado = true;
                 System.out.println("Aluno aprovado");
             } else {
+                this.aprovado = false;
                 System.out.println("Aluno reprovado. Média inferior a 6. Tente novamente ano que vem. Passar bem!");
             }
     }
-
+    //getters and Setters
     //METODOS SET----------------------------------------------------------------------------------------------------
-    public void setNome (String nome){
-        this.nome = nome;
-    }
+    public void setNome (String nome){ this.nome = nome;}
 
     public void setIdade (int idade){
         if(idade < 0) {
             System.out.println("Você não pode escolher uma idade menor que ZERO");
         }
-            this.idade = idade;
+        this.idade = idade;
     }
 
-    public void setNotas (double[] notas){
-       this.notas = notas;
-    }
+    public void setNotas (double[] notas){ this.notas = notas;}
 
     //METODOS GET-----------------------------------------------------------------------------------------------------
-    public String getNome(){
-        return this.nome;
-    }
+    public String getNome(){ return this.nome; }
 
-    public int getIdade (){
-        return this.idade;
-    }
+    public int getIdade (){ return this.idade; }
 
-    public double[] getNotas(){
-        return this.notas;
-    }
+    public double[] getNotas(){ return this.notas; }
+
+    public boolean isAprovado(){ return this.aprovado; }
 }
