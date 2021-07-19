@@ -3,7 +3,7 @@ package br.com.cursojava.javacore.Fmodificadorestatico.classes;
 public class Carro {
     private String nome;
     private double velocidadeMaxima;
-    public static double getVelocidadeLimite = 240;
+    public static double velocidadeLimite = 240;
 
     //METODO CONSTRUTOR DA CLASSE_________________________________________________________________________________
     public Carro(String nome, double velocidadeMaxima) {
@@ -31,11 +31,19 @@ public class Carro {
         this.velocidadeMaxima = velocidadeMaxima;
     }
 
+    public static void setVelocidadeLimite(double velocidadeLimite){
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+
+    public static double getVelocidadeLimite(){
+        return Carro.velocidadeLimite;
+    }
+
     //METODO IMPRIMIR___________________________________________________________________________________________
     public void imprimir() {
         System.out.println("_______________________________________________");
         System.out.println("Nome = " + this.nome);
         System.out.println("Velocidade máxima = " + this.velocidadeMaxima);
-        System.out.println("Velocidade limite= " + getVelocidadeLimite);
+        System.out.println("Velocidade limite= " + velocidadeLimite);
     }
 }

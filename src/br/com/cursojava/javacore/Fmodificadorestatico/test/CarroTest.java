@@ -12,7 +12,7 @@ public class CarroTest {
         b.imprimir();
         c.imprimir();
 
-        Carro.getVelocidadeLimite = 220;
+        Carro.VelocidadeLimite = 220;
 
         a.imprimir();
         b.imprimir();
