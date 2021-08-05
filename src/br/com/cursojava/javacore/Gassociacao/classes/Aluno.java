@@ -14,6 +14,18 @@ public class Aluno {
     public Aluno() {
     }
 
+    //Metodos
+    public void printAluno(){
+        System.out.println("________________________RELATORIO DE ALUNOS________________________");
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Idade: " + this.idade);
+
+        if (seminario != null)
+            System.out.println("Seminario: " + this.seminario.getTitulo());
+        else
+            System.out.println("Aluno não escrito em nenhum seminario");
+    }
+
     //getters and setters
     public String getNome() {
         return nome;

@@ -15,8 +15,18 @@ public class Professor {
     public Professor() {
     }
 
-    //Getters And Setters
+    //metodos
+    public void printProfessor(){
+        System.out.println("________________________RELATORIO DE PROFESSORES________________________");
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Especialidade: " + this.especialidade);
+        System.out.println("_________Seminario(s)__________");
+        for (Seminario semi : seminarios){
+            System.out.println(semi.getTitulo());
+        }
+    }
 
+    //Getters And Setters
     public String getNome() {
         return nome;
     }

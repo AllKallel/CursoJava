@@ -3,7 +3,7 @@ package br.com.cursojava.javacore.Gassociacao.classes;
 public class Seminario {
 
     private String titulo;
-    private Aluno[] aluno;
+    private Aluno[] alunos;
     private Professor professor;
     private Local local;
 
@@ -16,11 +16,15 @@ public class Seminario {
     }
 
     //Methods
-    public void print(){
+    public void printSeminario(){
+        System.out.println("________________________RELATORIO DE SEMINARIOS________________________");
         System.out.println("Título: " + this.titulo);
-        System.out.println("Aluno: " + this.aluno);
-        System.out.println("Professor: " + this.professor);
-        System.out.println("Local: " + this.local);
+        System.out.println("Professor palestrante: " + this.professor.getNome());
+        System.out.println("Local: Rua " + this.local.getRua() + ", Bairro: " + this.local.getBairro());
+        System.out.println("___________________Alunos Inscritos___________________");
+        for (Aluno aluno : alunos){
+            System.out.println(aluno.getNome());
+        }
     }
 
     //getters and setters
@@ -33,11 +37,11 @@ public class Seminario {
     }
 
     public Aluno[] getAluno() {
-        return aluno;
+        return alunos;
     }
 
     public void setAluno(Aluno[] aluno) {
-        this.aluno = aluno;
+        this.alunos = aluno;
     }
 
     public Professor getProfessor() {

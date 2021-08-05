@@ -14,6 +14,13 @@ public class Local {
     public Local() {
     }
 
+    //Metodos
+    public void PrintLocal(){
+        System.out.println("________________________RELATORIO DE LOCAL________________________");
+        System.out.println("Rua: " + this.rua);
+        System.out.println("Bairro: " + this.bairro);
+    }
+
     //getters and setters
     public String getRua() {
         return rua;
