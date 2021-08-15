@@ -21,9 +21,13 @@ public class Professor {
         System.out.println("Nome: " + this.nome);
         System.out.println("Especialidade: " + this.especialidade);
         System.out.println("_________Seminario(s)__________");
-        for (Seminario semi : seminarios){
-            System.out.println(semi.getTitulo());
+        if(seminarios != null && seminarios.length != 0){
+            for (Seminario semi : seminarios) {
+                System.out.println(semi.getTitulo());
+            }
+            return;
         }
+        System.out.println("Professor não vinculado a nenhum Seminário ");
     }
 
     //Getters And Setters

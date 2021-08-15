@@ -17,9 +17,9 @@ public class AssociacaoTest {
         aluno.setSeminario(semi);
         aluno.printAluno();                         //
         semi.setProfessor(prof);                    //um seminario tem um professor
-        semi.setLocal(local);                       //um seminario tem um local
-        semi.setAluno(new Aluno[]{aluno, aluno2});  //um seminario pode ter varios alunos
-        prof.setSeminarios(new Seminario[]{semi});  //um professor pode ter vaios seminarios
+       // semi.setLocal(local);                       //um seminario tem um local
+       //semi.setAluno(new Aluno[]{aluno, aluno2});  //um seminario pode ter varios alunos
+        //prof.setSeminarios(new Seminario[]{semi});  //um professor pode ter vaios seminarios
 
         semi.printSeminario();
         prof.printProfessor();
