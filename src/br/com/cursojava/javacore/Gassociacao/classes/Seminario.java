@@ -1,5 +1,7 @@
 package br.com.cursojava.javacore.Gassociacao.classes;
 
+import java.sql.SQLOutput;
+
 public class Seminario {
 
     private String titulo;
@@ -19,7 +21,12 @@ public class Seminario {
     public void printSeminario(){
         System.out.println("________________________RELATORIO DE SEMINARIOS________________________");
         System.out.println("Título: " + this.titulo);
-        System.out.println("Professor palestrante: " + this.professor.getNome());
+        if (professor != null) {
+            System.out.println("Professor palestrante: " + this.professor.getNome());
+        }else{
+            System.out.println("Nunhem professor associado a este seminário");
+        }
+
         if(local != null) {
             System.out.println("Local: Rua " + this.local.getRua() + ", Bairro: " + this.local.getBairro());
         }
