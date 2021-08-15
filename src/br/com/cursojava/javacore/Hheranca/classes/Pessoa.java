@@ -1,9 +1,10 @@
 package br.com.cursojava.javacore.Hheranca.classes;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+    // O protected permite que a classe e os filhos da classe acessem os atributos.
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
     //metodo print
     public void print(){

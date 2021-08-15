@@ -33,6 +33,7 @@ public class HerancaTest {
         fun.setEndereco(end2);
         fun.setSalario("15.000");
         fun.print();
+        fun.imprimeComprovantePagamento();
 
     }
 }
