@@ -7,22 +7,22 @@ import br.com.cursojava.javacore.Hheranca.classes.Pessoa;
 public class HerancaTest {
     public static void main(String[] args) {
 
-        Pessoa p1 = new Pessoa("Sara");
-        Pessoa p2 = new Pessoa("Allan");
+    //    Pessoa p1 = new Pessoa("Sara");
+    //    Pessoa p2 = new Pessoa("Allan");
         Endereco end = new Endereco();
         Endereco end2 = new Endereco();
 
-        p1.setCpf("123.123.123.12");
-        p2.setCpf("321.321.321.32");
+    //    p1.setCpf("123.123.123.12");
+    //    p2.setCpf("321.321.321.32");
         end.setBairro("Guamá");
         end.setRua("Olaria");
         end2.setBairro("icoarací");
         end2.setRua("priprioca");
-        p1.setEndereco(end);
-        p2.setEndereco(end2);
+    //    p1.setEndereco(end);
+    //    p2.setEndereco(end2);
 
-        p1.print();
-        p2.print();
+    //    p1.print()
+    //    p2.print();
 
         System.out.println("Funcionário-------------------------------------------------");
         Funcionario fun = new Funcionario("Kallel");
