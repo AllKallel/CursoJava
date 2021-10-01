@@ -6,8 +6,25 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
+    public Pessoa(String nome) {
+        System.out.println("Dentro do construtor de pessoa");
+        this.nome = nome;
+    }
+
+    static {
+        System.out.println("bloco de inialização estatico de pessoa");
+    }
+
+    {
+        System.out.println("Bloco de inicialização de pessoa 1");
+    }
+
+    {
+        System.out.println("Bloco de inicialização de pessoa 2");
+    }
+
     //metodo print
-    public void print(){
+    public void print() {
         System.out.println("Nome: " + this.nome);
         System.out.println("CPF: " + this.cpf);
         System.out.println("Endereço: " + endereco.getRua());
@@ -31,11 +48,11 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
-    public void setEndereco(Endereco endereco){
+    public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
 
-    public Endereco getEndereco(){
+    public Endereco getEndereco() {
         return endereco;
     }
 }
