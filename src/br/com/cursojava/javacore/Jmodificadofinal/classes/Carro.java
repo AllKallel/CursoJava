@@ -1,5 +1,9 @@
 package br.com.cursojava.javacore.Jmodificadofinal.classes;
 
+/**
+ * Aula 56: Modificador Final
+ */
+
 public class Carro {
     public static final double VELOCIDADE_FINAL = 250;
     private final Comprador comprador = new Comprador();
