@@ -17,6 +17,8 @@ public abstract class Funcionario {
                 '}';
     }
 
+    public abstract void calcularPagamento();
+
     public String getNome() {
         return nome;
     }
