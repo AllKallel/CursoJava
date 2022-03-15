@@ -1,4 +1,4 @@
-package br.com.cursojava.javacore.Oexception.customexception.test;
+package br.com.cursojava.javacore.Oexception.chekedexception.test;
 
 import br.com.cursojava.javacore.Oexception.customexception.classes.LoginInvalidoException;
 
