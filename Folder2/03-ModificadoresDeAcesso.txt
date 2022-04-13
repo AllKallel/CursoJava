@@ -1,0 +1,43 @@
+Os níveis são: private, default, protected e public
+
+PRIVATE: A única classe que tem acesso ao atributo é a própria classe que o define, ou seja, se uma classe Pessoa declara
+um atributo privado chamado nome, somente a classe Pessoa terá acesso a ele.
+
+DEFAULT: Tem acesso a um atributo default (identificado pela ausência de modificadores) todas as classes que estiverem no
+mesmo pacote que a classe que possui o atributo.
+
+PROTECTED: Esse é o que pega mais gente, ele é praticamente igual ao default, com a diferença de que se uma classe (mesmo
+que esteja fora do pacote) estende da classe com o atributo protected, ela terá acesso a ele. Então o acesso é por pacote
+e por herança.
+
+PUBLIC: Esse é fácil, todos tem acesso :)
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+O nível de visibilidade envolve encapsulamento. É sempre dito como boa prática que atributos internos devem ser privados,
+pois classes externas nem devem saber que eles existem. O que a classe expõe são suas funcionalidades, sua API, se preferir.
+Expor atributos internos pode causar sérios problemas de segurança. Se tem algo que é inerente à implementação, que pode
+vir a mudar no futuro. provavelmente deve ser privado.
+
+
+STATIC --> O uso do modificador STATIC em um atributo de classe, por exemplo, torna esse atributo possível de ser inicializado
+em qualquer parte da classe, mas quando recebe um valor, ele é compartilhado com todos os objetos da classe. Isso significa
+que os atributos estáticos de uma classe são compartilhados por todas as instâncias dessa classe.
+Ele atua como um membro da classe, não mais pertencendo a um objeto somente, mas sim a todos.
+Nesse caso não deve ser utilizado mais os metodos get e set para esse atributo. o mesmo deve ser alterado diretamente pela
+classe utilizando-se metodos estáticos.
+O bloco de inicialização estático é executado somente uma vez.
+
+FINAL --> O modificador FINAL por sua vez, torna o atributo da classe uma constante e, só pode ser inicializado uma única
+vez, ou diretamente na declaração da classe ou no método construtor.
+
+Quando aplicado em um metodo o MODIFICADOR "FINAL" faz com que esse não possa ser sobreescrito, podendo, no entanto ser
+sobrecarregado. Quando aplicado em um atributo da classe (uma variável)o modificador faz com que essa variável não possa
+ser modificada, mas a mesma deve ser iniciada no momento de sua criação.
+A constante deve ser definida em "UPERCASE" seguido da palavra "FINAL", como, por exemplo: VELOCIDADE_FINAL.
+Variáveis do tipo reference não podem criar uma nova referência.
+
+Quando um atributo recebe os modificadores de acesso STATIC e FINAL, sua inicialização apresenta uma alteração distinta,
+o atributo não poderá mais ser inicializado no método construtor, sendo possível sua inicialização apenas diretamente na
+declaração do atributo ou no bloco de inicialização estático.

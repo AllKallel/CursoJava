@@ -1,0 +1,10 @@
+
+Classes abstratas não podem ser instanciadas, mas podem conter atributos e métodos. Estes métodos podem ser abstratos.
+Métodos abstratos devem ser iniciados nas classes que os estendem. Um código (comportamento) deve ser implementado
+para esta classe, obrigatoriamente. A não ser que, essa classe também seja abstrata. Nesse caso deverá ser iniciada
+pela classe que estender esta, e assim sucessivamente, até que o método seja implementado e sobrescrito. Esse efeito
+é cascata para as demais filhas. Uma vez sobrescrito, as demais não são mais obrigadas a sobrescrever este.
+
+Uma classe pode ser abstrata e conter métodos concretos, mas o inverso não pode acontecer. Se uma classe contém um
+método abstrato, então esta, obrigatoriamente, deve ser abstrata.
+Sua representação na UML deve ser feita com a forma em ITÁLICO.

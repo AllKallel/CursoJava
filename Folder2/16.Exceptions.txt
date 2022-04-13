@@ -1,0 +1,44 @@
+Exceções são fluxos anormais. Fluxos que não agem corretamente como deveriam ser no código. Como tudo no java, exceções
+são classes e todas elas são filhas de throwable.
+
+ERROS E EXCEÇÕES são lançados pelo sistema.
+
+
+Error: Uma exceção pode ser tratada e seu código continuara funcionando, mas se for um Error seu programa, muito provavelmente
+deixará de funcionar.
+
+Exception: Exceptions podem ser tratadas. Existem dois tipos de exceções;
+
+	-checked: Exceções do tipo checked são aquelas que estão além do controle do programador. Por exemplo: A conexão
+	com o banco caiu.
+	-unchecked: Acontece quando há um problema de lógica, por exemplo: Quando um método tenta acessar uma variável que
+	não existe.
+
+O tratamento de exceção é feito com o TRY CATCH. Dessa forma o código não para de funcionar completamente, saltando para
+o catch e funcionando após ele.
+As exceções podem ser tratadas ou lançadas pra quem chama. E tratadas e relançadas. Mas caso o esse lançamento percorra
+a pilha e chegue na base e não encontre uma tratativa, o código para.
+
+
+Quando trabalhamos com consultas a arquivos ou com banco de dados, ao final devemos fechar a conexão. Usando o TRY CATCH
+podemos fazer com que uma linha de código feche a conexão colocando ela tanto no try quanto no catch, mas isso geraria
+duplicidade de código. Para isso usamos o finally{}. Neste bloco o código ali existênte será executado de qualquer forma,
+mesmo que no try haja algum tipo de retorno. Nesse caso o finally será executado antes.
+
+O java trava trabalha com o método top-down, olhando sempre de cima para baixo. Então, em múltiplas exceções deve-se atentar
+a hierarquia dos métodos. Pois, caso você coloque uma exceção muito genérica como RunTimeException antes de outra classe
+que é filha desta mesma, o Java irá sempre em RunTimeException que já conterá todos as outras. Logo o restante do código
+se tornará desnecessário. Ou seja, devemos sempre colocar classes mais específicas primeiro.
+
+A parir do java 7 é possível tratar várias exceções em um único catch, separando os por |.
+
+	TRY-WITH-RESOURCES
+
+Abrir e fechar recursos no Java, até o Java 6, era uma tarefa muito tediosa de se fazer e muito propensa a erros. Fechar
+os recursos abertos (invocando o método close()) frequentemente é algo que ou acaba sendo esquecido de ser feito ou que
+o programador o faz de forma inadequada, pois há vários complicadores para se fazer isso. O método deixa tudo isso mais
+fácil, pois transmite essa responsabilidade de fechar a conexão pro java. Além de diminuir consideravelmente o código.
+
+Ao criar um método você pode lançar exceções. Ao sobrescrever estes métodos você pode lanças as exceções novamente ou não.
+Até mesmo adicionar exceções que sejam do tipo RunTimeException ou subclasse de RunTimeException, por exemplo. Do mais,
+só serão aceitas exceções declaradas na superclasse.

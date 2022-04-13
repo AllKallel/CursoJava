@@ -1,0 +1,5 @@
+É uma rotina de inicialização da classe.
+Esse construtor não pode ser chamado dentro de métodos, apenas dentro de outros construtores. Caso seja chamado, ele
+deve ser a primeira instrução do código, caso contrário ocorre um erro de compilação.
+Caso haja mais de um construtor você é obrigado a declarar nas filhas dessa classe qual dos construtores elas devem implementar.
+Subclasses precisam seguir as mesmas regras da Super-classe.

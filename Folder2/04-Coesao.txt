@@ -1,0 +1,2 @@
+Uma classe coesa é uma classe que não faz nada que não esteja no seu escopo. Como por exemplo, algo que não faça sentido
+ a ela. Nesse caso uma boa classe tem alto nível de coesão.

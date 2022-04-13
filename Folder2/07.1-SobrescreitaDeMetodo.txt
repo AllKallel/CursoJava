@@ -1,0 +1,3 @@
+
+Sobrescrita de método, é quando o método é refeito em outra classe que extende a classe de origem do método com os
+mesmos: nome, retorno e parametros.

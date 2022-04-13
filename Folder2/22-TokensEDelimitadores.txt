@@ -1,0 +1,14 @@
+Existem situações onde nós, programadores, recebemos a “simples” tarefa de abrir um arquivo, ler um texto com 50 mil
+palavras, quebrar o texto em partes menores e utilizar estas partes para configurar Beans e coisas do tipo. Em casos
+como esse não se deve reinventar a roda e tentar criar algo totalmente revolucionário que irá mudar o jeito que todos os
+programadores executam esta tarefa. Aliás, sim, você pode tentar fazer isto. Porém, saiba que estará “perdendo tempo”,
+uma vez que uma solução para isto já existe e é muito simples de ser utilizada. Java oferece a seus programadores os
+tokens que, basicamente, executam todas as tarefas citadas anteriormente.
+
+Utilizando o cenário anterior, suponhamos que precisamos abrir um arquivo chamado Teste.txt, fazer uma lida em seu
+texto, quebrá-lo em partes e atribuí-las a determinados objetos para serem utilizados posteriormente em outras partes
+do nosso sistema. Parece complicado, né?! Mas não é.
+
+Neste artigo, abordaremos uma das classes que oferecem este tipo de serviço: Scanner.
+
+https://www.devmedia.com.br/tokenizacao-com-scanner-em-java/26508

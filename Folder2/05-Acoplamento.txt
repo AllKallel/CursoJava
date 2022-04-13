@@ -1,0 +1,2 @@
+Uma classe que depende de outras classes para seu funcionamento é uma classe com alto grau de acoplamento. Toda essa
+dependência pode influenciar de forma negativa no funcionamento da classe. Logo, uma boa classe tem baixo grau de acoplamento.

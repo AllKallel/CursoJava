@@ -1,0 +1,16 @@
+
+As interfaces dizem o que uma classe deve fazer, mas nunca como será feito. Interfaces são como classes abstratas mas
+com 100% de abstração.
+Uma classe abstrata deve ter o nomes como adgetivos, por exemplo: Tributável. Quando não for possível, a palavra deve
+ser antecedida pela letre 'I'.
+Todos os métodos de uma interface são considerados públicos e abstratos. Logo, não precisa ser declarado nenhum dos dois
+modificadores, pois seria redundante.
+Os métodos também não tem corpo.
+Os atributos em uma interface são considerados constantes. Como por exemplo: public static final double ATRIBUTO = 1.2;
+Pode-se implementar mais de uma interface. E para implementar utiliza-se a palavra "implements" após o nome da classe.
+
+
+Ao sobreescrever um metodo, você nunca pode colocar ele com um nivel de proteção maior do que ele foi criado.
+// private > default > protected > public
+
+No diagrama de classes, uma interface é descrita por <<interface>>  e é estendido por uma linha tracejada.

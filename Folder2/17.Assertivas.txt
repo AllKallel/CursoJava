@@ -1,0 +1,7 @@
+
+Assert foi introduzidas apartir da versão 1.4.
+As assertivas é um código que garante que algo não deve acontecer. Caso aconteça, uma exceção é lançada e o código
+para, pois esta exception é do tipo checked e não deve ser tratada. O Código deve ser concertado.
+As acertivas estão desativadas por padrão, dessa forma elas não serão notadas pelo java. Caso queira, elas podem ser
+ativadas em Run – edit configurations – VM “-ea”. Para desabilitar “-da” ou apagar o que estava escrito e deixar em
+branco, como o padrão.

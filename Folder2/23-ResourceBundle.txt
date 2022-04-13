@@ -1,0 +1,5 @@
+Ao criar uma sistema Java, diversos rótulos, mensagens, textos e outras Strings são criadas, e muitas vezes, essas
+Strings se repetem em diversos pontos do sistema. Uma forma de reusar esses textos é através dos arquivos com extensão
+properties, também conhecidos como Resource Bundles. Dessa forma são arquivos que contém as mensagens/rótulos de uma
+aplicação. São armazenamos como uma tupla label=mensagem em cada linha, onde o label não deve conter caracteres especiais,
+espaços em branco ou caracteres com acento. Um exemplo de arquivo de resource bundle está descrito abaixo

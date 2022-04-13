@@ -1,0 +1,6 @@
+A herança é um princípio da POO que permite a criação de novas classes a partir de outras previamente criadas. Essas novas
+classes são chamadas de subclasses ou classes derivadas; e as classes já existentes que deram origem às subclasses, são
+chamadas de superclasses ou classes base.
+
+Herança é utilizado por basicamente dois motivos: reaproveitar código e utilizar polimorfismo.
+Não existe herança múltipla em java.

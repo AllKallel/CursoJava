@@ -15,10 +15,10 @@ public class ScannerTest {
         Scanner scanner2 = new Scanner("1 true 100 olá mundo");
         while (scanner2.hasNext()){
             if (scanner2.hasNextInt()){
-                int i = scanner2.nextInt();
+                int i = scanner2.nextInt();                     //Verifica se o próximo é um int
                 System.out.println("int: " + i);
             }else if(scanner2.hasNextBoolean()){
-                boolean b =scanner2.nextBoolean();
+                boolean b =scanner2.nextBoolean();              //verifica se o próximo é um Boolean
                 System.out.println("Boolean: " + b);
             }else {
                 System.out.println(scanner2.next());

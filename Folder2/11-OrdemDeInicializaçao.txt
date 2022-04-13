@@ -1,0 +1,9 @@
+        ORDEM DE INICIALIZAÇÂO
+	1- Espaço de memória é criado para objeto sendo construido;
+	2- Cada um dos atributos dos objetos é criado e iniciado com os valores default;
+	3- bloco de inicialização static é iniciado
+	-passos 1, 2 e 3 se repetem para subclasse
+	4- A inicialização dos atributos via declaração e codigo de inicialização da superclasse são executados na ordem em que aparecem;
+    5- O codigo construtor da superclasse é chamado;
+    6- Passo 4 para a subclasse é executado;
+    7- O código construtor da classe é chamado.

@@ -1,0 +1,6 @@
+
++++++++++++++++++++++++++++++++++SOBRECARGA DE METODOS (Overload)++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+A sobrecarga de metodo é quando um metodo recebe o mesmo nome de um metodo já existente mas sem causar ambiguidade, já
+que os parâmetros serão e devem ser diferêntes.
+A Privacidade, o retorno e os tipos de parâmetros podem ser mudados ou não.

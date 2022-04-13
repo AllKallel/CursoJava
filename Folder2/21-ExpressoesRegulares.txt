@@ -1,0 +1,6 @@
+Uma expressão regular é uma String especialmente formatada que mostra um padrão de pesquisa e substituição de textos. O
+principal objetivo dessas expressões é fazer validações nos dados de um programa, assegurando que estes dados estejam em
+um determinado formato. Uma expressão consiste em caracteres literais e símbolos especiais.
+
+Para criar uma expressão regular é necessário informar caracteres especiais usados no padrão da expressão. Esses
+caracteres são conhecidos como metacaracteres, indicando a ocorrência de números, letras entre outros caracteres no texto.

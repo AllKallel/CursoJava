@@ -1,0 +1,6 @@
+A data representa o tempo, um tempo é composto por ano, mês, dia atual, minuto atual, entre outras propriedades que essa
+classe possui.
+
+Hoje a maioria dos métodos da classe Date estão classificados como deprecated (depreciados), ou seja, são métodos que não
+são mais utilizados, por isso essa classe foi substituída pela classe Calendar, para haver suporte correto à internacionalização
+o sistema de datas.

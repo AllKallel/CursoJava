@@ -1,0 +1,23 @@
+Associação
+
+A associação é uma das formas mais simples de relacionamento entre classes e ocorre quando existe uma classe que possui
+um atributo de outra classe(objetos ou array de objetos ).
+Este tipo de relacionamento também é conhecido por relacionamento ?tem um(a)?.
+Por exemplo, quando uma associação entre a classe ?Pessoa? e a classe ?Endereco?, diz que uma pessoa ?tem um? endereço.
+
+
+Agregação:
+
+A agregação é uma forma de associação caracterizada por um relacionamento do tipo partetodo, em que uma das pontas da
+associação é a parte é o todo.
+Por exemplo as classes Turma, Estudante e Instrutor, o Estudante é ligado a Turma, o Instrutor também e ligado a Turma.
+Ou seja Turma é um todo, enquanto os Estudantes e o Instrutor são partes do todo.
+A Turma é ?Hierarquicamente? superior? aos Estudantes e ao Instrutor,
+Ou seja, a Turma contém os Estudantes e o Instrutor. Visto de outra forma, os Estudantes e o Instrutor fazem parte da turma.
+
+Composição
+
+Composição é um tipo de associação ainda mais forte que agregação. A composição também é um relacionamento caracterizado
+como parte / todo, mas, neste caso, o todo é responsável pelo ciclo de vida da parte.
+Por exemplo a classe Departamento ligada a Escola , se o objeto da classe Escola for destruído, todos os departamentos
+devem ser excluídos também.

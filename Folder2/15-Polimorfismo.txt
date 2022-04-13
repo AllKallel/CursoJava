@@ -1,0 +1,12 @@
+Polimorfismo é o princípio pelo qual duas ou mais classes derivadas de uma mesma superclasse podem invocar métodos que
+têm a mesma identificação (assinatura) mas comportamentos distintos, especializados para cada classe derivada, usando
+para tanto uma referência a um objeto do tipo da superclasse.
+
+Parâmetros polimórficos é como são chamados os parâmetros que possuem a qualidade de chamar objetos diferentes.
+cast widening - fazer uma variável maior referenciar uma variável menor.
+
+Sempre que necessário invocar uma variável que não está presente na super classe, é necessário fazer um cast, explicitando
+para o java que é aquilo mesmo que deve ser feito. Porém, nunca uma variável que não tem relação direta com a classe poderá
+chamar uma variável dela. Dessa forma, deve-se usar o operador INSTANCEOF que retorna um booleano dentro de um IF. O cast
+pode ser efetuado criando uma variável e atribuindo o valor de outra ou diretamente na variável em questão, de forma mais
+curta. Porém a forma curta só será usada uma vez, pois não tem uma variável de referência.

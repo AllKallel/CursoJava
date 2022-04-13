@@ -1,0 +1,46 @@
+Pode-se também habilitar pra uma classe específica, colocando o nome do pacote inteiro como:
+-ea:br.com.cursojava.javacore.Passertions.test
+Habilitar para todas e desabilitar para uma classe expecífica:
+-ea -da:br.com.cursojava.javacore.Passertions.test
+
+É boa pratica tratar um ASSERT dentro de um método privado.
+
+Uma classe empacotadora, em inglês wrapper class, na linguagem de programação Java uma das oito classes fornecidas no
+pacote java.lang para fornecer métodos de objeto para os oito tipos primitivos. Todas as classes wrapper em Java são
+imutáveis. J2SE 5.0 introduziu o conceito de empacotamento automático de tipos primitivos em seus objetos wrapper, e
+desempacotamento automático dos objetos wrapper em seus valores primitivos - a conversão implícita entre os objetos
+wrapper e valores primitivos.
+
+As classes empacotadoras:
+    • Boolean
+    • Byte
+    • Character
+    • Double
+    • Float
+    • Integer
+    • Long
+    • Short
+As classes empacotadoras (wrapper) e seus tipos primitivos correspondentes são:
+
+Tipo primitivo Empacotadora (Wrapper)               Argumentos suportados
+byte                Byte                            byte or String
+
+short               Short                           short or String
+
+int                 Integer                         int or String
+
+long                Long                            long or String
+
+float               Float                           float, double or String
+
+double              Double                          double or String
+
+char                Character                       char
+
+boolean             Boolean                         boolean or String
+
+AUTOBOXING
+Encapsular algo, como por exemplo: uma variável primitiva.
+UNBOXING
+Seria o processo inverso de autoboxing.
+

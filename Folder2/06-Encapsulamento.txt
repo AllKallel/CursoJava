@@ -1,0 +1,4 @@
+Encapsulamento é proteger o código, não permitindo que qualquer um possa fazer alguma ação sobre ele. Só as classes que
+conhecem o método de alteração podem efetuar tal procedimento. Assim, tornando o código mais seguro.
+O encapsulamento ocorre com os metodos, atributos e variáveis recebendo níveis PRIVATE de acesso. Para alterar estes são
+criados métodos específicos, métodos SET.

@@ -1,0 +1,14 @@
+
+Tem por objetivo prevenir erros. Pois não deixa brechas para o usuário escolher uma opção que não tenha, previamente,
+sido declarada. Portanto, previne erros.
+
+Classes desse tipo são, na verdade, um tipo novo (ENUM). Essas variáveis vão ser apresentadas como do tipo String, mas
+na verdade não são, são atributos estaticos e constantes do tipo Como no exemplo: TipoCliente. Então, se apresenta como
+String, mas é, na verdade, um TipoCliente.
+
+O tipo ENUM pode ser criado tanto em uma classe nova e extendido, quanto dentro da própria classe que vai usar.
+Enumerações são um tipo especial de classe, então podemos criar atributos e metodos tbm.
+
+É possível sobrescrever métodos, como por exemplo o Constant specific class body que permite que uma das opções retorne
+um valor específico.
+Na UML o nome da classe é sobreposto com a descrição: ENUMERATION.

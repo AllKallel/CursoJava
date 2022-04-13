@@ -1,0 +1,3 @@
+Diagramas uml são usados na fase de planejamento de software. É independente de linguágem.
+
+Site falando mais sobre UML: agelemodeling.com/artifacts/classDiagram.html

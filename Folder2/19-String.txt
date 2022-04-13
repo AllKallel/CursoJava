@@ -1,0 +1,3 @@
+ String é um tipo de dados que armazena uma sequência de caracteres. Uma string é uma classe de wrapper que fornece
+ métodos como compare() , replace() e substring() . Os objetos são armazenados na memória heap sempre que um objeto é
+ instanciado.
