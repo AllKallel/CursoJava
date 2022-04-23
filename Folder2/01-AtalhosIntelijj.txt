@@ -6,3 +6,4 @@ ctrl + shift + cima			                -movimentar linha
 select variable + shift + F6		        -refactor - mudar variavel em todos os lugares
 ctrl + P 				                    -mostrar parametros requisitados
 ctrl + alt + o 				                -remove imports não utilizados
+ctcl + q                                    -mostra uma documentação sobre a exception
