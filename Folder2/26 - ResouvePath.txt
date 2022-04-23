@@ -1,0 +1,5 @@
+Resolver path seria efetuar a junção de dois Path's para a obtenção de um terceiro caminho completo.
+O java trata esses path's de maneiras distintas à depender do tipo de path:
+absoluto: O caminho que não precisa de alteração nem uma, ele é absoluto.
+Relativo: pode ser adicionado a outro e continuará fazendo sentido.
+File / arquivo: Que é exatamente isso. Um arquivo.
