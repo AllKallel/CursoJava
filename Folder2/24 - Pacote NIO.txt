@@ -1,0 +1,4 @@
+Neste pacote foram inseridas três novas classes:
+path
+paths
+files
