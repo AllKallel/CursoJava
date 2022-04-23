@@ -1,0 +1,2 @@
+Normalização se trata de resolver todas a idas e voltas do caminho indicado e mostrar um caminho absoluto até o
+arquivo. A normalização não assegura a existência do arquivo, só o caminho direto até o arquivo que está sendo indicado.
