@@ -1,0 +1,3 @@
+Relativizar é eliminar o que há em comum entre um caminho e outro e mostrar somente os paços seguites até o destino final.
+Ajuda pensar da seguinte forma: do caminho 1, como faço pra chegar no 2?
+oque for relativo no 2 é apagado e continua-se daí.
