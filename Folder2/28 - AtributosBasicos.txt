@@ -1,0 +1,28 @@
+atributos básicos da classe File;
+File.canRead
+File.CanExecute
+File.canWrite
+
+atributos básicos do pacote NIO com a classe files;
+Files.isReadable
+Files.isExecutable
+Files.isWritable
+
+------------------------------------------------------------------------------------------------------------------------
+
+O java trás interfaces para melhor organizar a manipulação de atributos, para leitura;
+
+- BasicFileAttributes: Tem os atributos básicos para todos os sistemas operacionais.
+- PosixFileAttributes: Atributos baseados no sistema unix ou linux.
+-DosFileAttributes: Atributos voltados para sistemas windows.
+
+Para modificar:
+- BasicFileAttributesView.
+- PosixFileAttributesView.
+- DosFileAttributesView.
+
+-FileOwnerAttributesView: Seta o criador do arquivo.
+-AclFileAttributesView - Tem permissões avançadas.
+
+
+
