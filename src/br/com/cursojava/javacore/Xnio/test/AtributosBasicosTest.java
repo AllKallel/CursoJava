@@ -33,6 +33,11 @@ public class AtributosBasicosTest {
         System.out.println(Files.getLastModifiedTime(path));
         Files.deleteIfExists(path);
 
+
+        /**-----------------------------------------------------------------------------------------------------------*/
+
+
+        //BasicFileAttribute, PosixFileAttribute, DosFileAttribute
         /** VERIFICAÇÕES BÁSICAS DE LEITURA, EXECUÇÃO E ESCRITA */
         Path path1 = Paths.get("src\\br\\com\\cursojava\\javacore\\Aintroducaoclasses\\classes\\Carro.java");
         System.out.println("É executável?: " + Files.isExecutable(path1));
@@ -49,6 +54,12 @@ public class AtributosBasicosTest {
 //        System.out.println("It's a regular file: " + basicFileAttributes.isRegularFile());
 
         System.out.println("_____________________________________________________________________________________");
+
+
+        /**-----------------------------------------------------------------------------------------------------------*/
+
+
+        //BasicFileAttributeView, PosixFileAttributeView, DosFileAttributeView, FileOwnerAttributeView, AclFileAttributeView
         /** ATRIBUTOS BÁSICOS DOS SISTEMAS - EFETUANDO ALTERAÇÕES */
         FileTime lastModified = basicFileAttributes.lastModifiedTime();
         FileTime created = basicFileAttributes.creationTime();
@@ -56,7 +67,7 @@ public class AtributosBasicosTest {
 
         BasicFileAttributeView basicView = Files.getFileAttributeView(path1, BasicFileAttributeView.class);
         basicView.setTimes(lastModified, lastAccess, created);
-
+        basicFileAttributes = Files.readAttributes(path1, BasicFileAttributes.class);    //lendo novamente os atributos
         System.out.println("Create: " + basicView.readAttributes().creationTime());
         System.out.println("Last Access: " + basicView.readAttributes().lastAccessTime());
         System.out.println("Last Modified: " + basicView.readAttributes().lastModifiedTime());

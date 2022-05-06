@@ -21,8 +21,8 @@ Para modificar:
 - PosixFileAttributesView.
 - DosFileAttributesView.
 
--FileOwnerAttributesView: Seta o criador do arquivo.
--AclFileAttributesView - Tem permissões avançadas.
+-FileOwnerAttributesView: Seta o criador do arquivo ou diretório.
+-AclFileAttributesView - Tem permissões avançadas para trabalhar com diretório e arquivos.
 
 
 
