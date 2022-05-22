@@ -1,0 +1,8 @@
+FileVisitResult.CONTINUE  : vai até o fundo do reposítório, volta e entra no próxomo reposítório. E assim por diante,
+recursivamente.
+
+FileVisitResult.CONTINUE : para, encerra a execução de todos os métodos subsequentes.
+
+FileVisitResult.SKIP_SUBTREE : ignora todo mundo que estiver abaixo.
+
+FileVisitResult.SKIP_SIBLINGS : ignora as pastas do mesmo nível.
