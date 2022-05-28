@@ -1,6 +1,7 @@
 ALT+insert 				                    -adicionar get and set
 psvm 					                    -public void main
 sout 					                    -print
+Ctrl + o                                    -override
 Ctrl + D 				                    -duplica a linha
 ctrl + shift + cima			                -movimentar linha
 select variable + shift + F6		        -refactor - mudar variavel em todos os lugares

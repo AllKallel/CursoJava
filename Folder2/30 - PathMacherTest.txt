@@ -1,0 +1,9 @@
+Path Macher funcionar igual uma espressão regular, efetuando busca por mais de un tipo de arquivos e pastas.
+
+Pather =  sempre utilizar "glob:*.bkp"
+*.arquivo - considera qualquer coisa, exceto divisor de arquivo
+* considera qualquer coisa, exceto divisor de arquivo "\,/"
+** considera qualquer coisa
+**/* qualquer coisa que venha antes, seguido de um arquivo tipo (qualquer tipo)
+? quantidade de caracteres. Ex: ? = 1, ?? = 2 ...
+{}* busca um nome em expecífico
