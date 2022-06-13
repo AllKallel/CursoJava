@@ -1,0 +1,11 @@
+FileOutputStrem possui uma variável Apend que por padrão possui o valor false. Então toda vez que a classe for chamada
+sobrescreverá o arquivo. Porém, se o valor for setado para true, a classe escreverá a partir da ultima linha do arquivo.
+
+
+Fileimput faz a leitura, porém essa leitura é feita byte a byte e nós não sabemos quando é o final deste arquivo, somente
+que retornará -1 no final. Sabendo disso podemos implementar uma tratativa no final.
+
+
+Essas classes possuem uma classe otimizada chamada buffer. Ela possui por padrão 8142 bytes. Este tamando pode ser setado
+dentro do contrutor no int size.
+A classe buffer oferece o metodo .flush que força a passagem completa de dados pelo tunel antes de fechar.
