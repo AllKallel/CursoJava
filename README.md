@@ -1,7 +1,10 @@
 ***CursoJava  willian Suane DEVDOJO***
   -Declaração de variáveis
+  
   -Operadores
+  
   -Controle de fluxo
+  
   -Arrais
   -Classes e objetos
   -Emcapsulamento
