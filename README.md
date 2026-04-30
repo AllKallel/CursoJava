@@ -1,4 +1,4 @@
-***CursoJava  willian Suane DEVDOJO*** :octocat:
+***Curso JAVA  - willian Suane - DEVDOJO*** :octocat:
 
 - [Introdução](https://github.com/AllKallel/CursoJava/tree/master/src/br/com/cursojava/introducao)
 
